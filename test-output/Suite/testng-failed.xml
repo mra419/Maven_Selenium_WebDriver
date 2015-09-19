@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.mavenproject.seleniumwebdriver.testscripts.TestScript1">
+        <methods>
+          <include name="teardown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.mavenproject.seleniumwebdriver.testscripts.TestScript1 -->
+      <class name="com.mavenproject.seleniumwebdriver.testscripts.TestScript2">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.mavenproject.seleniumwebdriver.testscripts.TestScript2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
