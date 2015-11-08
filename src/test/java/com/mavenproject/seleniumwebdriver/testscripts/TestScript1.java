@@ -24,5 +24,11 @@ public class TestScript1 extends TestBase {
 		
 	}
 
+	@Test
+	public void test3(){
+		
+		driver.get("http://www.twitter.com");
+		
+	}
 
 }
