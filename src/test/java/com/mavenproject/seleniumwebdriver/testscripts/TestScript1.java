@@ -31,4 +31,11 @@ public class TestScript1 extends TestBase {
 		
 	}
 
+	@Test
+	public void test4(){
+		
+		driver.get("http://www.aol.com");
+		
+	}
+	
 }
